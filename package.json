@@ -1,0 +1,20 @@
+{
+	"devDependencies": {
+		"husky": "^9.1.7"
+	},
+	"scripts": {
+		"dev": "pnpm --dir simple-product-shop dev",
+		"build": "pnpm --dir simple-product-shop build",
+		"preview": "pnpm --dir simple-product-shop preview",
+		"lint": "pnpm --dir simple-product-shop lint",
+		"lint:fix": "pnpm --dir simple-product-shop lint:fix",
+		"typecheck": "pnpm --dir simple-product-shop typecheck",
+		"test": "pnpm --dir simple-product-shop test",
+		"test:run": "pnpm --dir simple-product-shop test:run",
+		"test:coverage": "pnpm --dir simple-product-shop test:coverage",
+		"test:e2e": "pnpm --dir simple-product-shop test:e2e",
+		"quality": "pnpm --dir simple-product-shop quality",
+		"verify": "pnpm quality && pnpm test:e2e && pnpm build",
+		"prepare": "husky"
+	}
+}

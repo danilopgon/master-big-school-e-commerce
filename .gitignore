@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# Build and test artifacts
+dist/
+playwright-report/
+test-results/
+stats.html
+
+# Local env files
+*.local
+.env
+.env.*
+!.env.example
